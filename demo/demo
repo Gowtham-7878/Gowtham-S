@@ -1,0 +1,5 @@
+v=int(input('value:'))
+for i in range(1,1+v):
+    for j in range(i):
+        print('*',end='')
+    print()
